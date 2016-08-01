@@ -14,19 +14,11 @@
     <sound>sound\snd_vida</sound>
     <sound>sound\snd_monstruo</sound>
     <sound>sound\snd_empuja</sound>
+    <sound>sound\snd_musica</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_diamante</sprite>
-    <sprite>sprites\spr_bloqueo</sprite>
-    <sprite>sprites\spr_bomba</sprite>
     <sprite>sprites\spr_meta</sprite>
-    <sprite>sprites\spr_puerta1</sprite>
-    <sprite>sprites\spr_puerta2</sprite>
-    <sprite>sprites\spr_abajo</sprite>
-    <sprite>sprites\spr_control</sprite>
-    <sprite>sprites\spr_hueco</sprite>
-    <sprite>sprites\spr_izquierda</sprite>
-    <sprite>sprites\spr_jugador</sprite>
     <sprite>sprites\spr_muro</sprite>
     <sprites name="sprs_llaves">
       <sprite>sprites\spr_llavenegra</sprite>
@@ -46,10 +38,22 @@
       <sprite>sprites\spr_puertaoro</sprite>
       <sprite>sprites\spr_puertamora</sprite>
       <sprite>sprites\spr_puertaplata</sprite>
+      <sprite>sprites\spr_puerta1</sprite>
+    </sprites>
+    <sprites name="sprs_jugador">
+      <sprite>sprites\spr_jugadorabj</sprite>
+      <sprite>sprites\spr_jugadorabjquieto</sprite>
+      <sprite>sprites\spr_jugadorizq</sprite>
+      <sprite>sprites\spr_jugadorizqquieto</sprite>
+      <sprite>sprites\spr_jugadorder</sprite>
+      <sprite>sprites\spr_jugadorderquieto</sprite>
+      <sprite>sprites\spr_jugadorarr</sprite>
+      <sprite>sprites\spr_jugadorarrquieto</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\bkg_piso</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -64,6 +68,13 @@
       <object>objects\obj_llaveoro</object>
       <object>objects\obj_llavemora</object>
       <object>objects\obj_llaveplata</object>
+      <objects name="objs_llavesespeciales">
+        <object>objects\obj_llavenegra1</object>
+        <object>objects\obj_llavenegra2</object>
+        <object>objects\obj_llavenegra3</object>
+        <object>objects\obj_llaveroja1</object>
+        <object>objects\obj_llaveroja2</object>
+      </objects>
     </objects>
     <objects name="objs_monstruos">
       <object>objects\obj_monstruohorizontal</object>
@@ -80,7 +91,6 @@
       <object>objects\obj_puertapadre</object>
     </objects>
     <object>objects\obj_inicio</object>
-    <object>objects\obj_vidas</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Inicio</room>
@@ -89,6 +99,7 @@
     <room>rooms\Nivel3</room>
     <room>rooms\Nivel4</room>
     <room>rooms\Nivel5</room>
+    <room>rooms\Nivel6</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
