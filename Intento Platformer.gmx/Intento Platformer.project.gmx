@@ -4,19 +4,90 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sndM</sound>
+    <sound>sound\sndEx</sound>
+  </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sprR</sprite>
-    <sprite>sprites\sprite1</sprite>
+    <sprite>sprites\sprM</sprite>
+    <sprite>sprites\sprD</sprite>
+    <sprite>sprites\sprG</sprite>
+    <sprite>sprites\sprEx</sprite>
+    <sprite>sprites\sprV</sprite>
+    <sprites name="sprsObjetos">
+      <sprite>sprites\sprO1</sprite>
+      <sprite>sprites\sprO2</sprite>
+      <sprite>sprites\sprO3</sprite>
+      <sprite>sprites\sprO4</sprite>
+      <sprite>sprites\sprO5</sprite>
+    </sprites>
+    <sprites name="sprsPersonaje">
+      <sprite>sprites\sprR</sprite>
+      <sprite>sprites\sprBd</sprite>
+      <sprite>sprites\sprBi</sprite>
+      <sprites name="sprsLadosPersonaje">
+        <sprite>sprites\sprPds</sprite>
+        <sprite>sprites\sprPdc</sprite>
+        <sprite>sprites\sprPdq</sprite>
+        <sprite>sprites\sprPd</sprite>
+        <sprite>sprites\sprPis</sprite>
+        <sprite>sprites\sprPic</sprite>
+        <sprite>sprites\sprPiq</sprite>
+        <sprite>sprites\sprPi</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="sprsEnemigos">
+      <sprite>sprites\spr_E</sprite>
+      <sprite>sprites\sprBEd</sprite>
+      <sprite>sprites\sprBEi</sprite>
+    </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\FondoAzul</background>
+    <background>background\FondoWin</background>
+    <background>background\FondoGameOver</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\objR</object>
+    <object>objects\objH</object>
     <object>objects\objM</object>
+    <object>objects\objMusica</object>
+    <object>objects\objNiveles</object>
+    <object>objects\objD</object>
+    <object>objects\objG</object>
+    <object>objects\objEx</object>
+    <objects name="objsObjetos">
+      <object>objects\objO1</object>
+      <object>objects\objO2</object>
+      <object>objects\objO3</object>
+      <object>objects\objO4</object>
+      <object>objects\objO5</object>
+    </objects>
+    <objects name="objsPersonaje">
+      <object>objects\objR</object>
+      <object>objects\objBd</object>
+      <object>objects\objBi</object>
+      <objects name="objsLadosPersonaje">
+        <object>objects\objPds</object>
+        <object>objects\objPdc</object>
+        <object>objects\objPdq</object>
+        <object>objects\objPd</object>
+        <object>objects\objPis</object>
+        <object>objects\objPic</object>
+        <object>objects\objPiq</object>
+        <object>objects\objPi</object>
+      </objects>
+    </objects>
+    <objects name="objsEnemigos">
+      <object>objects\objE</object>
+      <object>objects\objBEd</object>
+      <object>objects\objBEi</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\NivelJuego</room>
+    <room>rooms\GameOver</room>
+    <room>rooms\Win</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
